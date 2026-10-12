@@ -1,0 +1,9 @@
+# Task 3 only. Tested with Python 3.13.
+# CPU-only PyTorch wheel; drop the extra index line for a CUDA build.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy==2.5.4
+scikit-learn==1.9.1
+joblib==1.6.0
+torch==2.14.1+cpu
+pytest==9.1.1
