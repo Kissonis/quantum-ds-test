@@ -42,7 +42,7 @@ The committed `predictions.csv` and fitted model do not need them.
 # Task 1
 printf '3 4\n0 0 0 1\n0 0 1 1\n0 1 0 1\n' | python task1_islands/islands.py     # -> 2
 
-# Task 2
+# Task 2: first copy the provided train.csv and hidden_test.csv into task2_regression/data/
 cd task2_regression
 python train.py                      # fits the model, prints CV RMSE, saves models/model.joblib
 python predict.py                    # writes predictions.csv for data/hidden_test.csv
